@@ -124,6 +124,6 @@ selectDataMean <- summarise_each(by_selectData, funs(mean))
 # 6. Write the data set created in step 5 to a file
 # =================================================
 
-outputFile <- "./UCI_HAR_Mean_Dataset"
+outputFile <- "./UCI_HAR_Mean_Dataset.txt"
 write.table(selectDataMean, file = outputFile, 
             row.names = FALSE)
