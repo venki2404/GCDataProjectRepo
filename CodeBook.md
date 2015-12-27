@@ -1,17 +1,17 @@
 Introduction
-============
+------------
 
 This CodeBook pertains to data collected from the accelerometers of the Samsung Galaxy S smartphone and pertains to Human Activity Recognition.
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, a full set of raw measurements were recorded. A summarized, simplfied and tidy version of the data set has been created and is being described in this document.
 
 Original Input "raw" Data Set
-=============================
+-----------------------------
 
 To obtains details fo the original data set please see [link] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 Data Set transformations
-========================
+------------------------
 
 The **key** Data Set transformations to covert the original data set to the present data set includes:
 
@@ -20,12 +20,12 @@ The **key** Data Set transformations to covert the original data set to the pres
 3. Provide only average of each variable for each subject and each activity (from the several observations made of each subject and each activity)
 
 Data Set Description
-====================
+--------------------
 
 The Data set is captured in a table with 180 observations (rows) for 68 variables (columns). The 180 observations result from observations made for 30 volunteers (subjects) each of whom do 6 activities (180 = 30 x 6). THe variables of the data set are described below. The table provides a summarized and simplified version of the Human activity measurements using a Samsung Galaxy S smartphone.
 
 Variable names: Key mnemonics used
-==================================
+----------------------------------
 
 The following keywords/Mnemonics were used to construct the variable names. Studying them helps to understand the variable names.
 
@@ -47,7 +47,7 @@ No.|Key/Mnemonics|Description
 
 
 List of Variables and Definitions
-=================================
+---------------------------------
 
 The variable names choosen are descriptive at the same time sufficiently short for convenience. In combination with the explanation of keywords/mnemonics used to construct them, they can be easily understood. The full set of variables are described in the table below.
 
@@ -125,7 +125,7 @@ No.|Variable|Description
 **NOTE:** Variables 63-68 have two "body" in the name, while there could just be one. This has been delibrately left to be consistent with the description of features in the orginal raw data set. This is in case user decides to refer back to the original data
 
 Units of Variables
-==================
+------------------
 
 All features/variables are normalized and bounded within [-1,1]. Hence they have no units. 
 
@@ -133,19 +133,19 @@ Original accelaration signals were measured in standard gravity units 'g'.
 Origina gyroscope signals (of angular velocity) were measured in 'radians/second'
 
 License info from original data set
-===================================
+-----------------------------------
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 Disclaimer from authors of original data
-========================================
+----------------------------------------
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 More information
-================
+----------------
 For more information about the original dataset contact: activityrecognition@smartlab.ws
 
 
